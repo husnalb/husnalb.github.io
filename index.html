@@ -256,6 +256,14 @@
                 <div class="column right">
                     <div class="text">Message me</div>
                     <form name="contact" action="https://formsubmit.co/19540be30b58e542197ff14adb8c08f5" method="POST">
+                        <!-- honeypot -->
+
+                        <input type="text" name="_honey" style="display: none;">
+
+                        <!-- disable captcha -->
+
+                        <input type="hidden" name="_captcha" value="false">
+
                         <div class="fields">
                             <div class="field name">
                                 <input type="text" name="name" placeholder="Name" required>
