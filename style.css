@@ -71,7 +71,7 @@ section .title::after{
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color: rgb(16, 19, 243);
+    color: rgb(17, 21, 255);
     padding: 0 5px;
     background: #fff;
     transform: translateX(-50%);
@@ -316,7 +316,7 @@ section .title::after{
 }
    
 .about .title::after{
-    content: "who am I?";
+    content: "Who am I?";
 }
 .about .about-content .left{
     width: 45%;
@@ -400,7 +400,7 @@ section .title::after{
 .services .title::after,
 .inspirations .title::after{
     background: #111;
-    content: "what I do";
+    content: "What I like";
 }
 .services .serv-content .cardint{
     width: 328px;
@@ -449,7 +449,7 @@ section .title::after{
 /* skills section styling */
 
 .skills .title::after{
-    content: "what I know";
+    content: "What I know";
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
@@ -629,7 +629,7 @@ section .title::after{
 
 /* contact section styling */
 .contact .title::after{
-    content: "get in touch";
+    content: "Get in touch";
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
